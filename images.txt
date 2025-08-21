@@ -1,2 +1,3 @@
 jetbrains/teamcity-server
 jenkins/jenkins:lts-jdk21
+unityci/editor:ubuntu-2022.3.48f1-windows-mono-3
