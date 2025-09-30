@@ -1,3 +1,5 @@
-ghcr.io/flannel-io/flannel:v0.27.3
-ghcr.io/flannel-io/flannel-cni-plugin:v1.7.1-flannel1
-ghcr.io/flannel-io/flannel:v0.27.3
+localai/localai:latest-aio-cpu
+localai/localai:latest-aio-gpu-nvidia-cuda-12
+localai/localai:latest-aio-gpu-nvidia-cuda-11
+localai/localai:latest-aio-gpu-intel
+localai/localai:latest-aio-gpu-hipblas
