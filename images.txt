@@ -1,1 +1,2 @@
-ghcr.io/sillytavern/sillytavern:latest
+kubespheredev/kube-webhook-certgen:v1.1.1
+kubesphere/openelb:v0.5.0
