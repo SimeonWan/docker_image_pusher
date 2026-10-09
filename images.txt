@@ -1,1 +1,20 @@
-aledbf/kube-keepalived-vip:0.35
+# ---- 核心组件（当前部署必需，6 个）----
+docker.io/fluidcloudnative/fluid-crd-upgrader:v1.0.5-7e917c7
+docker.io/kubesphere/fluidcloudnative-dataset-controller:v1.0.5-9d8b113e
+k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.3.0
+docker.io/fluidcloudnative/fluid-csi:v1.0.5-7e917c7
+docker.io/fluidcloudnative/fluid-webhook:v1.0.5-7e917c7
+docker.io/fluidcloudnative/application-controller:v1.0.5-7e917c7
+
+# ---- Runtime 相关（启用对应 runtime 时才需要）----
+docker.io/fluidcloudnative/init-users:v0.9.0
+docker.io/kubesphere/fluidcloudnative-alluxioruntime-controller:v1.0.5-9d8b113e
+docker.io/alluxio/alluxio-dev:2.9.0
+docker.io/fluidcloudnative/jindoruntime-controller:v1.0.5-7e917c7
+docker.io/fluidcloudnative/goosefsruntime-controller:v1.0.5-7e917c7
+docker.io/fluidcloudnative/juicefsruntime-controller:v1.0.5-7e917c7
+docker.io/juicedata/mount:ce-v1.2.0
+docker.io/juicedata/mount:ee-5.0.21-317356c
+docker.io/kubesphere/fluidcloudnative-thinruntime-controller:v1.0.5-ad27508c
+docker.io/fluidcloudnative/efcruntime-controller:v1.0.5-7e917c7
+docker.io/fluidcloudnative/vineyardruntime-controller:v1.0.5-7e917c7
